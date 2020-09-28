@@ -64,7 +64,7 @@ select nome from tb_personagem where poder_de_defesa > 1000 and poder_de_defesa 
 
 #Faça um select  utilizando LIKE buscando os personagens com a letra C.
 
-select * from tb_personagem where nome like ('c%');
+select * from tb_personagem where nome like ('k%');
 
 #seleciona tudo que vem da tabela personagem e junta (inner join) com a tabela classe, nas quais(on) o id_personagem é o mesmo que id_cargo
 select * from tb_classe INNER JOIN tb_personagem ON tb_classe.id_classe = tb_personagem.id_personagem ;
